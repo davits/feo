@@ -5,6 +5,6 @@ fn main() {
     let mut name = String::new();
     io::stdin()
         .read_line(&mut name)
-        .expect("Faild to read from stdin.");
+        .expect("Failed to read from standard input.");
     println!("Hello {}!", name);
 }
